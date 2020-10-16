@@ -1,0 +1,63 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    margin: 30px 25px;
+}
+
+
+.navbar .navbar-toggler-icon {
+    color: white;
+}
+
+
+.jumbotron{
+    background-image: url(../img/alvaro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 100%;   
+    overflow: hidden;    
+}
+
+.jumbotron .desc {
+    text-align: center;
+    margin-top: 176px;
+}
+
+.jumbotron .desc {
+    text-align: center;
+    margin-top: 176px;
+}
+
+.jumbotron h1{
+    font-family: 'Roboto';
+    font-size: 45px;  
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.jumbotron hr{
+    width: 70px;
+    height: 2px;    
+}
+
+/* smartphone */
+@media (max-width: 600px) {
+    .jumbotron{
+        background-position-x: -400px;
+    }
+    .jumbotron .desc{
+        margin-top: 250px;
+    }
+    .jumbotron .desc h1{
+        font-size: 30px ;
+    }
+
+    .jumbotron .desc p{
+        font-size: 15px ;
+    }
+    
+}
